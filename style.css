@@ -1,5 +1,5 @@
 :root{
-  --bg:#e8f3ea; --leaf:#bfe3c0; --panel:#ffffffcc; --card:#ffffff;
+  --bg:#76a49b; --leaf:#bfe3c0; --panel:#ffffffcc; --card:#ffffff;
   --text:#274432; --muted:#6b8f7a; --accent:#7cc79a; --accent-dark:#55b07f;
   --good:#4cc08a; --bad:#f18a7e; --gold:#e7b35a; --border:#d7e7d9;
 }
@@ -44,7 +44,7 @@ html,body{height:100%} body{margin:0;color:var(--text);
   background:linear-gradient(180deg, rgba(255,255,255,0) 0, rgba(255,255,255,1) 24px)}
 
 .ip-bar{display:flex;gap:8px;overflow:auto;padding-bottom:2px}
-.ip-pill{flex:0 0 auto;background:#ff0000;border:1px solid var(--border);
+.ip-pill{flex:0 0 auto;background:#ffffff;border:1px solid var(--border);
   border-radius:999px;padding:6px 10px;display:flex;align-items:center;gap:6px;cursor:pointer;box-shadow:0 2px 0 #dfeee3}
 .ip-pill.active{outline:2px solid var(--accent)}
 .ip-pill .meta{font-size:12px;color:var(--muted)}
