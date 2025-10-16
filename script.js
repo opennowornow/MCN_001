@@ -3,18 +3,18 @@
   const AVAILABLE_VIDEOS = Array.isArray(window.__AVAILABLE_VIDEOS__) ? window.__AVAILABLE_VIDEOS__ : [];
 
   const IP_LIBRARY = [
-    {name:'疯狂小杨哥', industry:'段子', attrs:{creative:4,talk:4,pro:4,charm:4}, cost:700, video:'assets/IPMedia001.mp4'},
-    {name:'听泉鉴宝',   industry:'文玩', attrs:{creative:3,talk:3,pro:5,charm:3}, cost:650, video:'assets/IPMedia001.mp4'},
-    {name:'张大仙',     industry:'电子竞技', attrs:{creative:4,talk:5,pro:5,charm:4}, cost:780, video:'assets/IPMedia005.mp4'},
-    {name:'与南同行',   industry:'文化', attrs:{creative:4,talk:4,pro:4,charm:4}, cost:680, video:'assets/IPMedia001.mp4'},
-    {name:'李佳琦',     industry:'美妆时尚', attrs:{creative:4,talk:5,pro:4,charm:5}, cost:800, video:'assets/IPMedia001.mp4'},
-    {name:'李子柒',     industry:'非遗', attrs:{creative:5,talk:3,pro:4,charm:5}, cost:800, video:'assets/IPMedia001.mp4'},
-    {name:'会说话的刘二豆', industry:'萌宠', attrs:{creative:4,talk:3,pro:3,charm:5}, cost:600, video:'assets/IPMedia001.mp4'},
-    {name:'Dear-迪丽热巴', industry:'影视', attrs:{creative:4,talk:4,pro:3,charm:5}, cost:820, video:'assets/IPMedia001.mp4'},
-    {name:'鼠律师',     industry:'法律', attrs:{creative:3,talk:4,pro:5,charm:3}, cost:650, video:'assets/IPMedia002.mp4'},
-    {name:'猫哥说车',   industry:'汽车', attrs:{creative:3,talk:4,pro:4,charm:3}, cost:640, video:'assets/IPMedia001.mp4'},
-    {name:'山村小杰',   industry:'三农', attrs:{creative:4,talk:3,pro:3,charm:4}, cost:620, video:'assets/IPMedia004.mp4'},
-    {name:'米高沃克斯', industry:'3C', attrs:{creative:4,talk:4,pro:5,charm:3}, cost:700, video:'assets/IPMedia003.mp4'}
+    {name:'疯狂小杨哥', industry:'段子', attrs:{creative:4,talk:4,pro:4,charm:4}, cost:700, video:'IPMedia001.mp4'},
+    {name:'听泉鉴宝',   industry:'文玩', attrs:{creative:3,talk:3,pro:5,charm:3}, cost:650, video:'IPMedia001.mp4'},
+    {name:'张大仙',     industry:'电子竞技', attrs:{creative:4,talk:5,pro:5,charm:4}, cost:780, video:'IPMedia005.mp4'},
+    {name:'与南同行',   industry:'文化', attrs:{creative:4,talk:4,pro:4,charm:4}, cost:680, video:'IPMedia001.mp4'},
+    {name:'李佳琦',     industry:'美妆时尚', attrs:{creative:4,talk:5,pro:4,charm:5}, cost:800, video:'IPMedia001.mp4'},
+    {name:'李子柒',     industry:'非遗', attrs:{creative:5,talk:3,pro:4,charm:5}, cost:800, video:'IPMedia001.mp4'},
+    {name:'会说话的刘二豆', industry:'萌宠', attrs:{creative:4,talk:3,pro:3,charm:5}, cost:600, video:'IPMedia001.mp4'},
+    {name:'Dear-迪丽热巴', industry:'影视', attrs:{creative:4,talk:4,pro:3,charm:5}, cost:820, video:'IPMedia001.mp4'},
+    {name:'鼠律师',     industry:'法律', attrs:{creative:3,talk:4,pro:5,charm:3}, cost:650, video:'IPMedia002.mp4'},
+    {name:'猫哥说车',   industry:'汽车', attrs:{creative:3,talk:4,pro:4,charm:3}, cost:640, video:'IPMedia001.mp4'},
+    {name:'山村小杰',   industry:'三农', attrs:{creative:4,talk:3,pro:3,charm:4}, cost:620, video:'IPMedia004.mp4'},
+    {name:'米高沃克斯', industry:'3C', attrs:{creative:4,talk:4,pro:5,charm:3}, cost:700, video:'IPMedia003.mp4'}
   ];
   const PREF = {
     '美妆时尚': {videoHigh:['教程','测评'], liveHigh:['带货','教程']},
