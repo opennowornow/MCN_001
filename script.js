@@ -203,7 +203,7 @@ function handleActedIPSelection(ip){
       const card=document.createElement('div'); card.className='recruit-card';
       card.innerHTML=`
         <div class="row"><b>${c.name}</b><span class="tag">${c.industry}</span></div>
-        <div class="attr">创意<b>${c.attrs.creative}</b> · 表达<b>${c.attrs.talk}</b> · 专业<b>${c.attrs.pro}</b> · 魅力<b>${c.attrs.charm}</b></div>
+        <div class="attr">创意<b>${c.attrs.creative}</b>·表达<b>${c.attrs.talk}</b>·专业<b>${c.attrs.pro}</b>·魅力<b>${c.attrs.charm}</b></div>
         <div class="row"><span class="small">签约费</span><b class="gold">💰 ${c.cost}</b></div>
         <div class="card-actions">
           <button class="btn-ghost" data-detail="${c.id}">详情</button>
